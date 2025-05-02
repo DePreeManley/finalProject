@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+:root{
+    --red:rgb(238,52,36);
+    --black:rgb(35,32,32);
+}
+nav{
+height: auto;
+width: 100%;
+align-items: center;
+justify-content: center;
+background: var(--red);
+}
+.header img{
+    height: 100px;
+    width: 250px;
+}
+.body{
+    display: flex;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr; */
+    background: var(--black);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    background: white;
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+   margin-left: 16rem;
+   margin-right: 16rem;
+}
+
+.footer{
+    background: var(--red);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer h2{
+    color: var(--black);
+}
