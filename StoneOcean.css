@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
     --red:rgb(238,52,36);
     --black:rgb(35,32,32);
+}
+.header{
+    align-items: center;
+    justify-content: center;
+
 }
 nav{
 height: auto;
@@ -10,31 +20,50 @@ align-items: center;
 justify-content: center;
 background: var(--red);
 }
+nav a{
+    font-family: "Neuton";
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.5rem;
+}
+nav a :hover{
+    transition: ease-in-out;
+    color: white;
+}
 .header img{
     height: 100px;
     width: 250px;
 }
 .body{
-    display: flex;
-    /* grid-template-columns: 1fr;
-    grid-template-rows: 1fr; */
+    display: grid;
+    grid-template-columns: 250px  250px ;
+    grid-template-rows: auto auto;
     background: var(--black);
     height: 100%;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    grid-row-gap: 50px;
 
 }
 .card{
+    display: flex;
+    flex-direction: column;
     background: white;
     height: 250px;
     width: 250px;
     align-items: center;
     justify-content: center;
-   margin-left: 16rem;
-   margin-right: 16rem;
+    margin-top: 1.5rem;
+   /* margin-left: 16rem;
+   margin-right: 16rem; */
+   margin-bottom: 1.5rem;
 }
-
+button{
+    background: white;
+    border: white;
+    cursor: pointer;
+}
 .footer{
     background: var(--red);
     display: flex;
@@ -43,6 +72,19 @@ background: var(--red);
     justify-content: center;
     
 }
+.icon{
+height: 20px;
+width: 20px;
+}
+img{
+    max-height: 60%;
+    max-width: 60%;
+}
 .footer h2{
     color: var(--black);
+}
+.secondary_card{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 5px, ease;
 }
