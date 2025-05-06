@@ -13,6 +13,18 @@
     justify-content: center;
 
 }
+h1{
+    color: var(--black);
+    font-family: "Neuton";
+}
+h2{
+    color: var(--black);
+    font-family: "Neuton";
+}
+p{
+    color: var(--black);
+    font-family: "Neuton";
+}
 nav{
 height: auto;
 width: 100%;
@@ -20,9 +32,8 @@ align-items: center;
 justify-content: center;
 background: var(--red);
 }
-nav a{
+ a{
     font-family: "Neuton";
-    text-decoration: none;
     color: var(--black);
     font-size: 1.5rem;
 }
@@ -59,15 +70,28 @@ nav a :hover{
    margin-right: 16rem; */
    margin-bottom: 1.5rem;
 }
-button{
+.click{
     background: white;
     border: white;
+    cursor: pointer;
+}
+.mic{
+    background: white;
+    border: white;
+    cursor: pointer;  
+}
+.tts{
+
+}
+.social{
+    background: var(--red);
+    border: var(--red);
     cursor: pointer;
 }
 .footer{
     background: var(--red);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     
@@ -84,7 +108,7 @@ img{
     color: var(--black);
 }
 .secondary_card{
-    max-height: 150px;
+    max-height: 0;
     overflow: hidden;
-    transition: max-height 5px, ease;
+    transition: max-height 150 ease;
 }
