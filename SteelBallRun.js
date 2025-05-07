@@ -1,8 +1,8 @@
 document.addEventListener('click', event =>{
-    const header = event.target.closest('.click')
+    const header = event.target.closest('.BTTN')
     if (!header) return
     
-    const openItem = document.querySelector('click.active')
+    const openItem = document.querySelector('BTTN.active')
     
     if (openItem && openItem !==header) {
         openItem.classList.remove('active')
@@ -22,3 +22,4 @@ document.addEventListener('click', event =>{
         icon.src = './res/images/plus.png'
     }
     })
+

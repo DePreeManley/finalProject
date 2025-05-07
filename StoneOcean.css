@@ -70,7 +70,7 @@ nav a :hover{
    margin-right: 16rem; */
    margin-bottom: 1.5rem;
 }
-.click{
+.BTTN{
     background: white;
     border: white;
     cursor: pointer;
@@ -80,9 +80,7 @@ nav a :hover{
     border: white;
     cursor: pointer;  
 }
-.tts{
 
-}
 .social{
     background: var(--red);
     border: var(--red);
@@ -111,4 +109,11 @@ img{
     max-height: 0;
     overflow: hidden;
     transition: max-height 150 ease;
+}
+
+@media screen and (max-width: 600px){
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
 }
