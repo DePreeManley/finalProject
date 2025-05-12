@@ -1,0 +1,17 @@
+[
+    {
+        "name":"The Guild House",
+        "price":"High",
+        "adress":"624 N High St, Columbus, OH 43215"
+    },
+    {
+        "name":"The Pearl",
+        "price":"Medium",
+        "adress":"641 N High St, Columbus, OH 43215"
+    },
+    {
+        "name":"HydeOut Kitchen & Bar",
+        "price":"low",
+        "adress":"201 S High St, Columbus, OH 43215"
+    }
+]

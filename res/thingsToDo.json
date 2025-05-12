@@ -1,0 +1,17 @@
+[
+    {
+        "name":"cosi",
+        "price":30,
+        "adress":"333 W Broad St, Columbus, OH 43215"  
+    },
+    {
+        "name":"Columbus Museum of Art",
+        "price":20,
+        "adress":"Columbus Museum of Art, 480 E Broad St, Columbus, OH 43215"
+    },
+    {
+        "name":"Otherworld",
+        "price":30,
+        "adress":"5819 Chantry Dr, Columbus, OH 43232"
+    }
+]
