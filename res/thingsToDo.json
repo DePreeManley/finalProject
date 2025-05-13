@@ -1,4 +1,5 @@
-[
+{
+    "things":[
     {
         "name":"cosi",
         "price":30,
@@ -15,3 +16,4 @@
         "adress":"5819 Chantry Dr, Columbus, OH 43232"
     }
 ]
+}

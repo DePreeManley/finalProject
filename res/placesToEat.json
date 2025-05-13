@@ -1,4 +1,5 @@
-[
+{
+   "food": [
     {
         "name":"The Guild House",
         "price":"High",
@@ -18,3 +19,4 @@
         "stars":4.5
     }
 ]
+}

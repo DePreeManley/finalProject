@@ -1,3 +1,5 @@
+
+
 document.addEventListener('click', event =>{
     const header = event.target.closest('.BTTN')
     if (!header) return
@@ -26,5 +28,3 @@ document.addEventListener('click', event =>{
         icon.src = './res/images/plus.png'
     }
     })
-
-
