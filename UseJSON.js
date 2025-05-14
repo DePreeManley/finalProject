@@ -13,12 +13,14 @@ xhr.onload = function () {
         //create an empry string to hold thhe  card imnformation
         let newCard = ''
 
-        for (let index = 0; index < responseObject.events.length; index++) {
+        for (let index = 0; index < responseObject.images.length; index++) {
             //loop through all objects inside the responseobject
             //obtain all information, add it to newcard 'card' and add it to the page
-            newCard += '<div class="card">'
-            newCard += '<img src="' + responseObject.images[index].Fun + '"/>'
+           newCard += '<div class=card>'
+            newCard += '<img src="' + responseObject.images[index].Fun + '"/>' 
+            newCard += '<div class="secondary_card">'
             newCard += '</div>'
+             newCard += '</div>'
         }
 //add information to the webpage
         document.querySelector('#content').innerHTML = newCard
