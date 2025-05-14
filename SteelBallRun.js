@@ -22,7 +22,7 @@ document.addEventListener('click', event =>{
     if (header.classList.contains('active')){
         
         content.style.maxHeight = content.scrollHeight + 'px'
-        icon.src = './res/images/minus_PNG55.png'
+        icon.src = './res/images/minus.png'
     } else{
         content.style.maxHeight = null;
         icon.src = './res/images/plus.png'
