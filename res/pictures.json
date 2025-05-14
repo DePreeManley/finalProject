@@ -5,6 +5,11 @@
             "Lodging":"./res/images/hotel.jpg",
             "Food":"./res/images/food.png",
             "mall":"./res/images/eastonMall.jpg"
+        },
+        {
+            "TTS":"./res/images/TTS.png",
+            "Plus":"./res/images/plus.png",
+            "Minus":"./res/images/minus.png"
         }
     ]
 

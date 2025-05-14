@@ -17,20 +17,7 @@ xhr.onload = function () {
             //loop through all objects inside the responseobject
             //obtain all information, add it to newcard 'card' and add it to the page
             newCard += '<div class="card">'
-            newCard += '<img src="' + responseObject.things[index].map + '"'
-            newCard += 'alt="' + responseObject.events[index].location + '"/>'
-            newCard += '<p><b>' + responseObject.events[index].location + "<br>"
-            newCard += responseObject.events[index].date + "</b></p>"
-
-            //add workshop ttilrd and times for each location
-            let loc = Object.keys(times)[index]
-            newCard +="<p><b>itinerary"
-
-            for( let i2=0; i2<times[loc].length; i2++){
-                newCard += "<li>"+times[loc[i2].time]+ "&nbsp; &nbsp;"
-                   newCard += "<li>"+times[loc][i2].title+ "</b></p>"
-                   newCard += "</li>"
-            }
+            newCard += '<img src="' + responseObject.images[index].Fun + '"/>'
             newCard += '</div>'
         }
 //add information to the webpage
@@ -38,19 +25,9 @@ xhr.onload = function () {
     }
 
 }
-
-
-xhr2.onload = function(){
-if(xhr2.status === 200){
-times = (JSON.parse(xhr2.responseText))
-}
-else{
-    console.log("the timetable could not be loaded")
-}
-}
 //prepare our request
-xhr2.open('GET','./../data/example.json',true)
-xhr.open('GET', './../data/data.json', true)
+xhr2.open('GET','./res/thingsToDo.json',true)
+xhr.open('GET', './res/pictures.json', true)
 
 //send our request
 xhr2.send(null)
