@@ -46,3 +46,6 @@ background: var(--red);
 .footer h2{
     color: var(--black);
 }
+img{
+    width: 120px
+}
