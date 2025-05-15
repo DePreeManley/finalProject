@@ -113,3 +113,14 @@ img{
 img{
     width: 120px
 }
+section{
+        display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    background: var(--black);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-row-gap: 50px;
+}

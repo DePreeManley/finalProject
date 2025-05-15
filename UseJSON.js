@@ -19,7 +19,7 @@ xhr.onload = function () {
            newCard += '<div class=card>'
             newCard += '<img src="' + responseObject.images[index].Fun + '"/>' 
             newCard += '<button class="BTTN">'
-            newCard += '<img src=">'+ responseObject.icons[index].Plus+'"/>'
+            newCard += '<img src="'+ responseObject.icons[index].Plus+'"/>'
             newCard += '</button>'
             newCard += '<div class="secondary_card">'
              newCard += '<p>'+ responseObject.cards
@@ -29,7 +29,7 @@ xhr.onload = function () {
              newCard += '<div class=card>'
             newCard += '<img src="' + responseObject.images[index].Lodging + '"/>' 
                       newCard += '<button class="BTTN">'
-            newCard += '<img src=">'+ responseObject.icons[index].Plus+'"/>'
+            newCard += '<img src="'+ responseObject.icons[index].Plus+'"/>'
             newCard += '</button>'
             newCard += '<div class="secondary_card">'
                newCard += '<p>'+ responseObject.cards
@@ -39,7 +39,7 @@ xhr.onload = function () {
              newCard += '<div class=card>'
             newCard += '<img src="' + responseObject.images[index].Food + '"/>' 
                        newCard += '<button class="BTTN">'
-            newCard += '<img src=">'+ responseObject.icons[index].Plus+'"/>'
+            newCard += '<img src="'+ responseObject.icons[index].Plus+'"/>'
             newCard += '</button>'
             newCard += '<div class="secondary_card">'
                newCard += '<p>'+ responseObject.cards
@@ -49,7 +49,7 @@ xhr.onload = function () {
              newCard += '<div class=card>'
             newCard += '<img src="' + responseObject.images[index].mall + '"/>' 
                         newCard += '<button class="BTTN">'
-            newCard += '<img src=">'+ responseObject.icons[index].Plus+'"/>'
+            newCard += '<img src="'+ responseObject.icons[index].Plus+'"/>'
             newCard += '</button>'
             newCard += '<div class="secondary_card">'
                newCard += '<p>'+ responseObject.cards
