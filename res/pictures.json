@@ -1,5 +1,5 @@
 {
-  "images": [
+      "images": [
         {
             "Fun":"./res/images/fun.jpeg",
             "Lodging":"./res/images/hotel.jpg",
@@ -15,6 +15,4 @@
             "Minus":"./res/images/minus.png"
         }
     ]
-
-
 }

@@ -18,9 +18,44 @@ xhr.onload = function () {
             //obtain all information, add it to newcard 'card' and add it to the page
            newCard += '<div class=card>'
             newCard += '<img src="' + responseObject.images[index].Fun + '"/>' 
+            newCard += '<button class="BTTN">'
+            newCard += '<img src=">'+ responseObject.icons[index].Plus+'"/>'
+            newCard += '</button>'
             newCard += '<div class="secondary_card">'
+             newCard += '<p>'+ responseObject.cards
             newCard += '</div>'
              newCard += '</div>'
+
+             newCard += '<div class=card>'
+            newCard += '<img src="' + responseObject.images[index].Lodging + '"/>' 
+                      newCard += '<button class="BTTN">'
+            newCard += '<img src=">'+ responseObject.icons[index].Plus+'"/>'
+            newCard += '</button>'
+            newCard += '<div class="secondary_card">'
+               newCard += '<p>'+ responseObject.cards
+            newCard += '</div>'
+             newCard += '</div>'
+
+             newCard += '<div class=card>'
+            newCard += '<img src="' + responseObject.images[index].Food + '"/>' 
+                       newCard += '<button class="BTTN">'
+            newCard += '<img src=">'+ responseObject.icons[index].Plus+'"/>'
+            newCard += '</button>'
+            newCard += '<div class="secondary_card">'
+               newCard += '<p>'+ responseObject.cards
+            newCard += '</div>'
+             newCard += '</div>'
+
+             newCard += '<div class=card>'
+            newCard += '<img src="' + responseObject.images[index].mall + '"/>' 
+                        newCard += '<button class="BTTN">'
+            newCard += '<img src=">'+ responseObject.icons[index].Plus+'"/>'
+            newCard += '</button>'
+            newCard += '<div class="secondary_card">'
+               newCard += '<p>'+ responseObject.cards
+            newCard += '</div>'
+             newCard += '</div>'
+             
         }
 //add information to the webpage
         document.querySelector('#content').innerHTML = newCard
@@ -28,7 +63,7 @@ xhr.onload = function () {
 
 }
 //prepare our request
-xhr2.open('GET','./res/thingsToDo.json',true)
+xhr2.open('GET','./res/cards.json',true)
 xhr.open('GET', './res/pictures.json', true)
 
 //send our request

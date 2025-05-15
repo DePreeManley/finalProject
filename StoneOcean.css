@@ -70,9 +70,10 @@ nav a :hover{
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-   /* margin-left: 16rem;
-   margin-right: 16rem; */
+   margin-left: 6rem;
+   margin-right: 6rem;
    margin-bottom: 2rem;
+
 }
 .BTTN{
     background: white;
@@ -118,8 +119,20 @@ img{
     height: 100px;
     width: auto;
 }
+#content{
+        display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    background: var(--black);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-row-gap: 50px;
+
+}
 @media screen and (max-width: 600px){
-    .body{
+    #content{
         display: flex;
         flex-direction: column;
     }
