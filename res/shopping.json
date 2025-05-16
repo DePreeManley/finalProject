@@ -1,0 +1,49 @@
+{
+    "Stores": [
+        {
+            "name": "GrandView Mercantile",
+            "Location": "Columbus, OH",
+            "rating": "4.6/5", 
+            "Monday": "11am-7pm",
+            "Tuesday": "11am-7pm",
+            "Wednesday": "11am-7pm",
+            "Thursday":  "11am-7pm",
+            "Friday":   "11am-7pm",
+            "Saturday": "10am-7pm",
+            "Sunday":   "12pm-5pm"
+        },
+        {
+            "name": "Easton Market",
+            "Location": "Columbus, OH 43219",
+            "Address": "3740 Easton Market",
+            "rating": "4.4/5", 
+            "everyday": "9am-9pm"
+        },
+        {
+            "name": "The Shops at Worthington",
+            "Location": "Worthington, OH 43085",
+            "Address": "7227 N High St",
+            "rating": "4.2/5", 
+            "Monday": "10am-8pm",
+            "Tuesday": "10am-8pm",
+            "Wednesday": "10am-8pm",
+            "Thursday":  "10am-8pm",
+            "Friday":   "10am-8pm",
+            "Saturday": "10am-8pm",
+            "Sunday":   "12pm-5pm"
+        },
+        {
+            "name": "Gabe's",
+            "Location": "Dublin, OH 43017",
+            "Address": "6285 Sawmill Rd",
+            "rating": "4.2/5", 
+            "Monday": "9am-10pm",
+            "Tuesday": "9am-10pm",
+            "Wednesday": "9am-10pm",
+            "Thursday":  "9am-10pm",
+            "Friday":   "9am-11pm",
+            "Saturday": "9am-11pm",
+            "Sunday":   "9pm-11pm"
+        }
+]
+}
