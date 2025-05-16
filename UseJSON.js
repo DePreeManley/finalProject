@@ -22,7 +22,7 @@ xhr.onload = function () {
             newCard += '<img src="'+ responseObject.icons[index].Plus+'"class="icon"/>'
             newCard += '</button>'
             newCard += '<div class="secondary_card">'
-             newCard += '<p>'+ responseObject.cards
+            newCard += '<p>' + responseObject.thingsToDo
             newCard += '</div>'
              newCard += '</div>'
 
@@ -32,7 +32,7 @@ xhr.onload = function () {
             newCard += '<img src="'+ responseObject.icons[index].Plus+'"class="icon"/>'
             newCard += '</button>'
             newCard += '<div class="secondary_card">'
-               newCard += '<p>'+ responseObject.cards
+                newCard += '<p>' + responseObject.thingsToDo
             newCard += '</div>'
              newCard += '</div>'
 
@@ -42,7 +42,7 @@ xhr.onload = function () {
             newCard += '<img src="'+ responseObject.icons[index].Plus+'" class="icon"/>'
             newCard += '</button>'
             newCard += '<div class="secondary_card">'
-               newCard += '<p>'+ responseObject.cards
+               newCard += '<p>' + responseObject.thingsToDo
             newCard += '</div>'
              newCard += '</div>'
 
@@ -52,7 +52,7 @@ xhr.onload = function () {
             newCard += '<img src="'+ responseObject.icons[index].Plus+'" class="icon"/>'
             newCard += '</button>'
             newCard += '<div class="secondary_card">'
-               newCard += '<p>'+ responseObject.cards
+            newCard += '<p>' + responseObject.thingsToDo
             newCard += '</div>'
              newCard += '</div>'
              

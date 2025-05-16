@@ -1,4 +1,4 @@
-{
+{   
     "thingsToDo":[
     {
         "name":"cosi",
@@ -42,6 +42,42 @@
 
 "Shopping":[
 
-]
+],
 
+
+    "Hotels": [
+{
+    "name":"Hampton's Inn",
+    "stars": 8.4,
+    "adress":"3160 Olentangy River Road, Columbus"
+},
+{
+    "name":"Country Inn & suites",
+    "stars":6.0,
+    "adress":"Radisson, Columbus Airport, OH"
+},
+{
+    "name":"La Quinta Inn Wyndham, Columbus Airport Area",
+    "stars":6.8,
+    "adress":"Brice Road, Columbus"
+},
+{
+    "name":"Sheraton Suites Columbus, Worthington",
+    "stars":8.2,
+    "adress":"Hutchinson Avenue, Columbus"
+},
+{
+    "name":"Drury Plaza",
+    "stars":9.2,
+    "adress":"East Nationwide Boulevard, Columbus"
+},
+{
+    "name":"Aloft",
+    "stars":8.4,
+    "adress":"1295 Olentangy River Rd, Columbus 43212"
 }
+
+]
+}
+
+
