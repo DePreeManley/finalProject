@@ -29,7 +29,7 @@ xhr.onload = function () {
             newCard += '<p>' + info.thingsToDo[2].name + '</p>'
             newCard += '<p>' + info.thingsToDo[2].price + '</p>'
             newCard += '<p>' + info.thingsToDo[2].adress + '</p>'
-              newCard += '<img src="' + responseObject.icons[index].TTS + '"class="icon"/>'
+            newCard += '<img src="' + responseObject.icons[index].TTS + '"class="icon"/>'
             newCard += '</div>'
             newCard += '</div>'
 
@@ -47,7 +47,7 @@ xhr.onload = function () {
             newCard += '<p>' + info.Hotels[2].name + '</p>'
             newCard += '<p>' + info.Hotels[2].stars + '</p>'
             newCard += '<p>' + info.Hotels[2].adress + '</p>'
-             newCard += '<img src="' + responseObject.icons[index].TTS + '"class="icon"/>'
+            newCard += '<img src="' + responseObject.icons[index].TTS + '"class="icon"/>'
             newCard += '</div>'
             newCard += '</div>'
 
@@ -67,7 +67,7 @@ xhr.onload = function () {
             newCard += '<p>' + info.PlacesToEat[2].price + '</p>'
             newCard += '<p>' + info.PlacesToEat[2].adress + '</p>'
             newCard += '<p>' + info.PlacesToEat[2].stars + '</p>'
-              newCard += '<img src="' + responseObject.icons[index].TTS + '"class="icon"/>'
+            newCard += '<img src="' + responseObject.icons[index].TTS + '"class="icon"/>'
             newCard += '</div>'
             newCard += '</div>'
 
@@ -87,9 +87,9 @@ xhr.onload = function () {
             newCard += '<p>' + info.Shopping[2].adress + '</p>'
             newCard += '<p>' + info.Shopping[2].rating + '</p>'
             newCard += '<p>' + info.Shopping[2].type + '</p>'
-              newCard += '<button>'
-              newCard += '<img src="' + responseObject.icons[index].TTS + '"class="icon"/>'
-              newCard += '</button>'
+            newCard += '<button>'
+            newCard += '<img src="' + responseObject.icons[index].TTS + '"class="icon"/>'
+            newCard += '</button>'
             newCard += '</div>'
             newCard += '</div>'
 
