@@ -1,125 +1,97 @@
-{   
-    "thingsToDo":[
-    {
-        "name":"cosi",
-        "price":30,
-        "adress":"333 W Broad St, Columbus, OH 43215"
-          
-    },
-    {
-        "name":"Columbus Museum of Art",
-        "price":20,
-        "adress":"Columbus Museum of Art, 480 E Broad St, Columbus, OH 43215"
-    },
-    {
-        "name":"Otherworld",
-        "price":30,
-        "adress":"5819 Chantry Dr, Columbus, OH 43232"
-    }
-],
-"PlacesToEat":[
-    {
-            
-        "name":"The Guild House",
-        "price":"High",
-        "adress":"624 N High St, Columbus, OH 43215",
-        "stars":4.5
-    },
-    {
-        "name":"The Pearl",
-        "price":"Medium",
-        "adress":"641 N High St, Columbus, OH 43215",
-        "stars":4.6
-    },
-    {
-        "name":"HydeOut Kitchen & Bar",
-        "price":"low",
-        "adress":"201 S High St, Columbus, OH 43215",
-        "stars":4.5
-    }   
-],
-
+{
+    "thingsToDo": [
+        {
+            "title": "Things To Do",
+            "name": "cosi",
+            "price": "$30",
+            "adress": "333 W Broad St, Columbus, OH 43215"
+        },
+        {
+            "name": "Columbus Museum of Art",
+            "price": "$20",
+            "adress": "Columbus Museum of Art, 480 E Broad St, Columbus, OH 43215"
+        },
+        {
+            "name": "Otherworld",
+            "price": "$30",
+            "adress": "5819 Chantry Dr, Columbus, OH 43232"
+        }
+    ],
+    "PlacesToEat": [
+        {
+              "title": "Places To Eat",
+            "name": "The Guild House",
+            "price": "Price:High",
+            "adress": "624 N High St, Columbus, OH 43215",
+            "stars": "4.5 Stars"
+        },
+        {
+            "name": "The Pearl",
+            "price": "Medium",
+            "adress": "641 N High St, Columbus, OH 43215",
+            "stars": "4.6 Stars"
+        },
+        {
+            "name": "HydeOut Kitchen & Bar",
+            "price": "low",
+            "adress": "201 S High St, Columbus, OH 43215",
+            "stars": "4.5 Stars"
+        }
+    ],
     "Hotels": [
-{
-    "name":"Hampton's Inn",
-    "stars": 8.4,
-    "adress":"3160 Olentangy River Road, Columbus"
-},
-{
-    "name":"Country Inn & suites",
-    "stars":6.0,
-    "adress":"Radisson, Columbus Airport, OH"
-},
-{
-    "name":"La Quinta Inn Wyndham, Columbus Airport Area",
-    "stars":6.8,
-    "adress":"Brice Road, Columbus"
-},
-{
-    "name":"Sheraton Suites Columbus, Worthington",
-    "stars":8.2,
-    "adress":"Hutchinson Avenue, Columbus"
-},
-{
-    "name":"Drury Plaza",
-    "stars":9.2,
-    "adress":"East Nationwide Boulevard, Columbus"
-},
-{
-    "name":"Aloft",
-    "stars":8.4,
-    "adress":"1295 Olentangy River Rd, Columbus 43212"
-}
-
-],
-
-
+        {
+              "title":"Lodging",
+              
+            "name": "Hampton's Inn",
+            "stars": 8.4,
+            "adress": "3160 Olentangy River Road, Columbus"
+        },
+        {
+            "name": "Country Inn & suites",
+            "stars": 6.0,
+            "adress": "Radisson, Columbus Airport, OH"
+        },
+        {
+            "name": "La Quinta Inn Wyndham, Columbus Airport Area",
+            "stars": 6.8,
+            "adress": "Brice Road, Columbus"
+        },
+        {
+            "name": "Sheraton Suites Columbus, Worthington",
+            "stars": 8.2,
+            "adress": "Hutchinson Avenue, Columbus"
+        },
+        {
+            "name": "Drury Plaza",
+            "stars": 9.2,
+            "adress": "East Nationwide Boulevard, Columbus"
+        },
+        {
+            "name": "Aloft",
+            "stars": 8.4,
+            "adress": "1295 Olentangy River Rd, Columbus 43212"
+        }
+    ],
     "Shopping": [
         {
-            "name": "GrandView Mercantile",
-            "Location": "Columbus, OH",
-            "rating": "4.6/5", 
-            "Monday": "11am-7pm",
-            "Tuesday": "11am-7pm",
-            "Wednesday": "11am-7pm",
-            "Thursday":  "11am-7pm",
-            "Friday":   "11am-7pm",
-            "Saturday": "10am-7pm",
-            "Sunday":   "12pm-5pm"
+              "title":"Shopping",
+            "name": "Celebrate Local - Shop the Best of Ohio",
+            "adress": "3952 Townsfair Way, Columbus, OH 43219",
+            "rating": "4.5 Stars",
+            "type": "Type: Gift Shop"
         },
         {
-            "name": "Easton Market",
-            "Location": "Columbus, OH 43219",
-            "Address": "3740 Easton Market",
-            "rating": "4.4/5", 
-            "everyday": "9am-9pm"
+            "name": "Easton Town Center",
+            "Address": "160 Easton Town Ctr, Columbus, OH 43219",
+            "rating": "4.5 Stars",
+            "type": "Type: Mall"
         },
         {
-            "name": "The Shops at Worthington",
-            "Location": "Worthington, OH 43085",
-            "Address": "7227 N High St",
-            "rating": "4.2/5", 
-            "Monday": "10am-8pm",
-            "Tuesday": "10am-8pm",
-            "Wednesday": "10am-8pm",
-            "Thursday":  "10am-8pm",
-            "Friday":   "10am-8pm",
-            "Saturday": "10am-8pm",
-            "Sunday":   "12pm-5pm"
-        },
-        {
-            "name": "Gabe's",
-            "Location": "Dublin, OH 43017",
-            "Address": "6285 Sawmill Rd",
-            "rating": "4.2/5", 
-            "Monday": "9am-10pm",
-            "Tuesday": "9am-10pm",
-            "Wednesday": "9am-10pm",
-            "Thursday":  "9am-10pm",
-            "Friday":   "9am-11pm",
-            "Saturday": "9am-11pm",
-            "Sunday":   "9pm-11pm"
+            "name": "Polaris Fashion Place",
+            "Address": "1500 Polaris Pkwy, Columbus, OH 43240",
+            "rating": "4.5 Stars",
+            "type": "Type:Mall"
         }
-]
+        
+    ]
 }
-
