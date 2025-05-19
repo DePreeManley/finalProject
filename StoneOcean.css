@@ -25,6 +25,9 @@ p{
     color: var(--black);
     font-family: "Neuton";
 }
+body{
+    background-color: var(--red);
+}
 nav{
 height: auto;
 width: 100%;
@@ -74,7 +77,10 @@ nav a :hover{
     border: white;
     cursor: pointer;  
 }
-
+.logo{
+    height: 50px;
+    width: 65px;
+}
 .social{
     background: var(--red);
     border: var(--red);
