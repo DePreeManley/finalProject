@@ -30,9 +30,11 @@ h2 {
 p {
     color: var(--black);
     font-family: "Neuton";
-    font-size: xx-small;
+    font-size: x-small;
 }
-
+.footer p{
+    font-size: 1.5rem;
+}
 body {
     background-color: var(--red);
 }

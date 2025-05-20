@@ -2,39 +2,39 @@
     "thingsToDo": [
         {
             "title": "Things To Do",
-            "name": "cosi",
+            "name": "Cosi",
             "price": "$30",
-            "adress": "333 W Broad St, Columbus, OH 43215"
+            "adress": "333 W Broad St"
         },
         {
             "name": "Columbus Museum of Art",
             "price": "$20",
-            "adress": "Columbus Museum of Art, 480 E Broad St, Columbus, OH 43215"
+            "adress": "480 E Broad St"
         },
         {
             "name": "Otherworld",
             "price": "$30",
-            "adress": "5819 Chantry Dr, Columbus, OH 43232"
+            "adress": "5819 Chantry Dr"
         }
     ],
     "PlacesToEat": [
         {
               "title": "Places To Eat",
             "name": "The Guild House",
-            "price": "Price:High",
-            "adress": "624 N High St, Columbus, OH 43215",
+            "price": "Price: High",
+            "adress": "624 N High St",
             "stars": "4.5 Stars"
         },
         {
             "name": "The Pearl",
-            "price": "Medium",
-            "adress": "641 N High St, Columbus, OH 43215",
+            "price": "Price: Medium",
+            "adress": "641 N High St",
             "stars": "4.6 Stars"
         },
         {
             "name": "HydeOut Kitchen & Bar",
-            "price": "low",
-            "adress": "201 S High St, Columbus, OH 43215",
+            "price": "Price: low",
+            "adress": "201 S High St",
             "stars": "4.5 Stars"
         }
     ],
@@ -44,36 +44,36 @@
               
             "name": "Hampton's Inn",
             "stars": "Stars: 3.9",
-            "adress": "3160 Olentangy River Road, Columbus"
+            "adress": "3160 Olentangy River Road"
         },
         {
             "name": "Country Inn & suites",
             "stars":"Stars: 3.4",
-            "adress": "2900 Airport Dr, Columbus, OH 43219"
+            "adress": "2900 Airport Dr"
         },
         {
             "name": "La Quinta Inn",
             "stars":"Stars: 3.2",
-            "adress": "2447 Brice Rd, Reynoldsburg, OH 43068"
+            "adress": "2447 Brice Rd"
         }
     ],
     "Shopping": [
         {
               "title":"Shopping",
             "name": "Celebrate Local - Shop the Best of Ohio",
-            "adress": "3952 Townsfair Way, Columbus, OH 43219",
+            "adress": "3952 Townsfair Way",
             "rating": "4.5 Stars",
             "type": "Type: Gift Shop"
         },
         {
             "name": "Easton Town Center",
-            "Address": "160 Easton Town Ctr, Columbus, OH 43219",
+            "Address": "160 Easton Town Ctr",
             "rating": "4.5 Stars",
             "type": "Type: Mall"
         },
         {
             "name": "Polaris Fashion Place",
-            "Address": "1500 Polaris Pkwy, Columbus, OH 43240",
+            "Address": "1500 Polaris Pkwy",
             "rating": "4.5 Stars",
             "type": "Type:Mall"
         }
