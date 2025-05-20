@@ -4,7 +4,8 @@
             "title": "Things To Do",
             "name": "Cosi",
             "price": "$30",
-            "adress": "333 W Broad St"
+            "adress": "333 W Broad St",
+            "link": "https://cosi.org/"
         },
         {
             "name": "Columbus Museum of Art",
@@ -14,7 +15,8 @@
         {
             "name": "Otherworld",
             "price": "$30",
-            "adress": "5819 Chantry Dr"
+            "adress": "5819 Chantry Dr",
+            "link":"https://www.otherworld.com/"
         }
     ],
     "PlacesToEat": [
@@ -23,7 +25,8 @@
             "name": "The Guild House",
             "price": "Price: High",
             "adress": "624 N High St",
-            "stars": "4.5 Stars"
+            "stars": "4.5 Stars",
+            "link":"https://theguildhousecolumbus.com/"
         },
         {
             "name": "The Pearl",
@@ -35,15 +38,17 @@
             "name": "HydeOut Kitchen & Bar",
             "price": "Price: low",
             "adress": "201 S High St",
-            "stars": "4.5 Stars"
+            "stars": "4.5 Stars",
+            "link":"https://order.toasttab.com/online/hydeout-kitchen-bar-201-s-high-street"
         }
     ],
     "Hotels": [
         {
             "title": "Lodging",
-            "name": "Hampton's Inn",
+            "name": "Hampton Inn",
             "stars": " 3.9 Stars",
-            "adress": "3160 Olentangy River Road"
+            "adress": "3160 Olentangy River Road",
+            "link":"https://www.hilton.com/en/brands/hampton-by-hilton/"
         },
         {
             "name": "Country Inn & suites",
@@ -53,7 +58,8 @@
         {
             "name": "La Quinta Inn",
             "stars": " 3.2 Stars",
-            "adress": "2447 Brice Rd"
+            "adress": "2447 Brice Rd",
+             "link":"https://www.wyndhamhotels.com/laquinta"
         }
     ],
     "Shopping": [
@@ -62,7 +68,8 @@
             "name": "Celebrate Local - Shop the Best of Ohio",
             "adress": "3952 Townsfair Way",
             "rating": "4.5 Stars",
-            "type": "Type: Gift Shop"
+             "link":"https://www.celebratelocalohio.com/"
+           
         },
         {
             "name": "Easton Town Center",
@@ -74,7 +81,8 @@
             "name": "Polaris Fashion Place",
             "Address": "1500 Polaris Pkwy",
             "rating": "4.5 Stars",
-            "type": "Type:Mall"
+             "link":"https://polarisfashionplace.com/"
+            
         }
     ]
 }

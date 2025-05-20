@@ -55,6 +55,10 @@ a {
     font-size: 1.5rem;
 }
 
+.secondary_card a{
+    font-size: xx-small;
+} 
+
 nav a :hover {
     transition: ease-in-out;
     color: white;
