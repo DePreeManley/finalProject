@@ -1,56 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --red:rgb(238,52,36);
-    --black:rgb(35,32,32);
+
+:root {
+    --red: rgb(238, 52, 36);
+    --black: rgb(35, 32, 32);
 }
-.header{
+
+.header {
     align-items: center;
     justify-content: center;
 
 }
-h1{
+
+h1 {
     color: var(--black);
     font-family: "Neuton";
 }
-h2{
+
+h2 {
     color: var(--black);
     font-family: "Neuton";
 }
-p{
+
+p {
     color: var(--black);
     font-family: "Neuton";
+    font-size: x-small;
 }
-nav{
-height: auto;
-width: 100%;
-align-items: center;
-justify-content: center;
-background: var(--red);
+
+.footer p {
+    font-size: 1.5rem;
 }
- a{
+
+body {
+    background-color: var(--red);
+}
+
+nav {
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: var(--red);
+}
+
+a {
     font-family: "Neuton";
     color: var(--black);
     font-size: 1.5rem;
 }
-nav a :hover{
+
+nav a :hover {
     transition: ease-in-out;
     color: white;
 }
-.header img{
+
+.header img {
     height: 100px;
     width: 250px;
 }
-.TTS{
-    max-height: 50px;
-    max-width: 50px;
+
+.TTS {
+    height: 50px;
+    width: 50px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     background: white;
@@ -59,51 +79,72 @@ nav a :hover{
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-   margin-left: 6rem;
-   margin-right: 6rem;
-   margin-bottom: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
 
 }
-.BTTN{
+
+.secondary_card {
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3 ease;
+}
+
+.BTTN {
     background: white;
     border: white;
     cursor: pointer;
 }
-.mic{
+
+.mic {
     background: white;
     border: white;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
-.social{
+.logo {
+    height: 50px;
+    width: 65px;
+}
+
+.social {
     background: var(--red);
     border: var(--red);
     cursor: pointer;
 }
-.footer{
+
+.footer {
     background: var(--red);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
-.icon{
-height: 20px;
-width: 20px;
+
+.icon {
+    height: 20px;
+    width: 20px;
 }
-img{
+
+img {
     max-height: 60%;
     max-width: 60%;
 }
-.footer h2{
+
+.footer h2 {
     color: var(--black);
 }
-img{
+
+img {
     width: 120px
 }
-section{
-        display: grid;
+
+section {
+    display: grid;
     grid-template-columns: 250px 250px;
     grid-template-rows: 250px 250px;
     background: var(--black);
@@ -114,8 +155,8 @@ section{
     grid-row-gap: 50px;
 }
 
-@media screen and (max-width: 600px){
-    section{
+@media screen and (max-width: 600px) {
+    section {
         display: flex;
         flex-direction: column;
     }
