@@ -1,20 +1,17 @@
 {
-
-
-      "images": [
+    "images": [
         {
-            "Fun":"./res/images/fun.jpeg",
-            "Lodging":"./res/images/hotel.jpg",
-            "Food":"./res/images/food.png",
-            "mall":"./res/images/eastonMall.jpg"
+            "Fun": "./res/images/fun.jpeg",
+            "Lodging": "./res/images/hotel.jpg",
+            "Food": "./res/images/food.png",
+            "mall": "./res/images/eastonMall.jpg"
         }
-
-    ], 
-    "icons":[
+    ],
+    "icons": [
         {
-            "TTS":"./res/images/TTS.png",
-            "Plus":"./res/images/plus.png",
-            "Minus":"./res/images/minus.png"
+            "TTS": "./res/images/TTS.png",
+            "Plus": "./res/images/plus.png",
+            "Minus": "./res/images/minus.png"
         }
     ]
 }

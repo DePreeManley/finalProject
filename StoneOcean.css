@@ -32,9 +32,11 @@ p {
     font-family: "Neuton";
     font-size: x-small;
 }
-.footer p{
+
+.footer p {
     font-size: 1.5rem;
 }
+
 body {
     background-color: var(--red);
 }

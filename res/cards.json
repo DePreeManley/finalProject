@@ -19,7 +19,7 @@
     ],
     "PlacesToEat": [
         {
-              "title": "Places To Eat",
+            "title": "Places To Eat",
             "name": "The Guild House",
             "price": "Price: High",
             "adress": "624 N High St",
@@ -40,26 +40,25 @@
     ],
     "Hotels": [
         {
-              "title":"Lodging",
-              
+            "title": "Lodging",
             "name": "Hampton's Inn",
-            "stars": "Stars: 3.9",
+            "stars": " 3.9 Stars",
             "adress": "3160 Olentangy River Road"
         },
         {
             "name": "Country Inn & suites",
-            "stars":"Stars: 3.4",
+            "stars": " 3.4 Stars",
             "adress": "2900 Airport Dr"
         },
         {
             "name": "La Quinta Inn",
-            "stars":"Stars: 3.2",
+            "stars": " 3.2 Stars",
             "adress": "2447 Brice Rd"
         }
     ],
     "Shopping": [
         {
-              "title":"Shopping",
+            "title": "Shopping",
             "name": "Celebrate Local - Shop the Best of Ohio",
             "adress": "3952 Townsfair Way",
             "rating": "4.5 Stars",
@@ -77,6 +76,5 @@
             "rating": "4.5 Stars",
             "type": "Type:Mall"
         }
-        
     ]
 }

@@ -25,7 +25,7 @@ xhr.onload = function () {
             newCard += '<p>' + info.thingsToDo[0].name + '</p>'
             newCard += '<p>' + info.thingsToDo[0].price + '</p>'
             newCard += '<p>' + info.thingsToDo[0].adress + '</p>'
-               newCard += '&nbsp;'
+            newCard += '&nbsp;'
             newCard += '<p>' + info.thingsToDo[2].name + '</p>'
             newCard += '<p>' + info.thingsToDo[2].price + '</p>'
             newCard += '<p>' + info.thingsToDo[2].adress
@@ -44,11 +44,11 @@ xhr.onload = function () {
             newCard += '<p>' + info.Hotels[0].name + '</p>'
             newCard += '<p>' + info.Hotels[0].stars + '</p>'
             newCard += '<p>' + info.Hotels[0].adress + '</p>'
-               newCard += '&nbsp;'
+            newCard += '&nbsp;'
             newCard += '<p>' + info.Hotels[2].name + '</p>'
             newCard += '<p>' + info.Hotels[2].stars + '</p>'
             newCard += '<p>' + info.Hotels[2].adress
-         
+
 
             newCard += '</p>'
             newCard += '</div>'
@@ -65,12 +65,12 @@ xhr.onload = function () {
             newCard += '<p>' + info.PlacesToEat[0].price + '</p>'
             newCard += '<p>' + info.PlacesToEat[0].adress + '</p>'
             newCard += '<p>' + info.PlacesToEat[0].stars + '</p>'
-               newCard += '&nbsp;'
+            newCard += '&nbsp;'
             newCard += '<p>' + info.PlacesToEat[2].name + '</p>'
             newCard += '<p>' + info.PlacesToEat[2].price + '</p>'
             newCard += '<p>' + info.PlacesToEat[2].adress + '</p>'
             newCard += '<p>' + info.PlacesToEat[2].stars
-            
+
 
             newCard += '</p>'
             newCard += '</div>'
@@ -86,10 +86,10 @@ xhr.onload = function () {
             newCard += '<p>' + info.Shopping[0].name + '</p>'
             newCard += '<p>' + info.Shopping[0].adress + '</p>'
             newCard += '<p>' + info.Shopping[0].rating + '</p>'
-           
-                newCard += '&nbsp;'
+
+            newCard += '&nbsp;'
             newCard += '<p>' + info.Shopping[2].name + '</p>'
-            newCard += '<p>' + info.Shopping[2].Address+ '</p>'
+            newCard += '<p>' + info.Shopping[2].Address + '</p>'
             newCard += '<p>' + info.Shopping[2].rating + '</p>'
             newCard += '</div>'
             newCard += '</div>'
