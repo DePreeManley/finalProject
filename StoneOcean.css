@@ -30,7 +30,7 @@ h2 {
 p {
     color: var(--black);
     font-family: "Neuton";
-    font-size: x-small;
+    font-size: small;
 }
 
 .footer p {
@@ -56,7 +56,7 @@ a {
 }
 
 .secondary_card a{
-    font-size: xx-small;
+    font-size: x-small;
 } 
 
 nav a :hover {
