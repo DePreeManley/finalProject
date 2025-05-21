@@ -94,7 +94,8 @@ nav a :hover {
     flex-direction: column;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3 ease;
+    transition: max-height 1 ease;
+    
 }
 
 .BTTN {
@@ -126,6 +127,7 @@ nav a :hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
 
 }
 

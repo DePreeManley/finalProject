@@ -3,20 +3,9 @@
         {
             "title": "Things To Do",
             "name": "Cosi",
-            "price": "$30",
             "adress": "333 W Broad St",
-            "link": "https://cosi.org/"
-        },
-        {
-            "name": "Columbus Museum of Art",
-            "price": "$20",
-            "adress": "480 E Broad St"
-        },
-        {
-            "name": "Otherworld",
-            "price": "$30",
-            "adress": "5819 Chantry Dr",
-            "link":"https://www.otherworld.com/"
+            "Text":"More Examples:",
+            "link": "https://www.tripadvisor.com/Attractions-g50226-Activities-Columbus_Ohio.html"
         }
     ],
     "PlacesToEat": [
@@ -26,20 +15,8 @@
             "price": "Price: High",
             "adress": "624 N High St",
             "stars": "4.5 Stars",
-            "link":"https://theguildhousecolumbus.com/"
-        },
-        {
-            "name": "The Pearl",
-            "price": "Price: Medium",
-            "adress": "641 N High St",
-            "stars": "4.6 Stars"
-        },
-        {
-            "name": "HydeOut Kitchen & Bar",
-            "price": "Price: low",
-            "adress": "201 S High St",
-            "stars": "4.5 Stars",
-            "link":"https://order.toasttab.com/online/hydeout-kitchen-bar-201-s-high-street"
+            "Text":"More Examples:",
+            "link":"https://www.tripadvisor.com/Restaurants-g50226-Columbus_Ohio.html"
         }
     ],
     "Hotels": [
@@ -48,18 +25,8 @@
             "name": "Hampton Inn",
             "stars": " 3.9 Stars",
             "adress": "3160 Olentangy River Road",
-            "link":"https://www.hilton.com/en/brands/hampton-by-hilton/"
-        },
-        {
-            "name": "Country Inn & suites",
-            "stars": " 3.4 Stars",
-            "adress": "2900 Airport Dr"
-        },
-        {
-            "name": "La Quinta Inn",
-            "stars": " 3.2 Stars",
-            "adress": "2447 Brice Rd",
-             "link":"https://www.wyndhamhotels.com/laquinta"
+            "Text":"More Examples:",
+            "link":"https://www.tripadvisor.com/Hotels-g50226-Columbus_Ohio-Hotels.html"
         }
     ],
     "Shopping": [
@@ -68,21 +35,9 @@
             "name": "Celebrate Local - Shop the Best of Ohio",
             "adress": "3952 Townsfair Way",
             "rating": "4.5 Stars",
-             "link":"https://www.celebratelocalohio.com/"
+            "Text":"More Examples:",
+             "link":"https://www.experiencecolumbus.com/blog/post/boutique-shopping-districts-in-columbus/"
            
-        },
-        {
-            "name": "Easton Town Center",
-            "Address": "160 Easton Town Ctr",
-            "rating": "4.5 Stars",
-            "type": "Type: Mall"
-        },
-        {
-            "name": "Polaris Fashion Place",
-            "Address": "1500 Polaris Pkwy",
-            "rating": "4.5 Stars",
-             "link":"https://polarisfashionplace.com/"
-            
         }
     ]
 }
