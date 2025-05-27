@@ -25,7 +25,7 @@ xhr.onload = function () {
             newCard += '<p>' + info.thingsToDo[0].name + '</p>'
             newCard += '<p>' + info.thingsToDo[0].adress + '</p>'
              newCard += '<p>' + info.thingsToDo[0].Text + '</p>'
-            newCard += '<a href="https://www.tripadvisor.com/Attractions-g50226-Activities-Columbus_Ohio.html">' + info.thingsToDo[0].link + '</a>'
+            newCard += '<a href="' + info.thingsToDo[0].link + '"</a>'
             newCard += '</div>'
             newCard += '</div>'
 

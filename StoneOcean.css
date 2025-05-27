@@ -158,6 +158,27 @@ img {
 img {
     width: 120px
 }
+.body{
+    display: flex;
+    flex-direction: column;
+    background: var(--black);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.body h1{
+    color: white;
+}
+.body h2{
+    color: white;
+}
+.body p{
+    color: white;
+}
+.body a{
+    color: white;
+}
 
 section {
     display: grid;
