@@ -4,7 +4,8 @@
             "Fun": "./res/images/fun.jpeg",
             "Lodging": "./res/images/hotel.jpg",
             "Food": "./res/images/food.png",
-            "mall": "./res/images/eastonMall.jpg"
+            "mall": "./res/images/eastonMall.jpg",
+            "rock":"./res/images/download.png"
         }
     ],
     "icons": [

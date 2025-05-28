@@ -39,5 +39,15 @@
              "link":"https://www.experiencecolumbus.com/blog/post/boutique-shopping-districts-in-columbus/"
            
         }
+    ],
+    "PlacesToSee":[
+        {
+            "title":"Places To See",
+            "name":"Franklin Park Conservatory and Botanical Gardens",
+            "adress":"1777 E Broad St",
+            "Text":"More Examples:",
+            "link":"https://www.experiencecolumbus.com/things-to-do/"
+
+        }
     ]
 }
