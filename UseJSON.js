@@ -6,82 +6,112 @@ let info
 //when state of request changes call the onload function 2
 xhr.onload = function () {
 
-    //if server response is 200("ok"), open the connection to get data
-    if (xhr.status === 200) {
+  //if server response is 200("ok"), open the connection to get data
+  if (xhr.status === 200) {
 
-        const responseObject = JSON.parse(xhr.responseText)
-        //create an empry string to hold thhe  card imnformation
-        let newCard = ''
-        for (let index = 0; index < responseObject.images.length; index++) {
-            //loop through all objects inside the responseobject
-            //obtain all information, add it to newcard 'card' and add it to the page
-            newCard += '<div class=card>'
-            newCard += '<h2>' + info.thingsToDo[0].title + '</h2>'
-            newCard += '<img src="' + responseObject.images[index].Fun + '"/>'
-            newCard += '<button class="BTTN">'
-            newCard += '<img src="' + responseObject.icons[index].Plus + '"class="icon"/>'
-            newCard += '</button>'
-            newCard += '<div class="secondary_card">'
-            newCard += '<p>' + info.thingsToDo[0].name + '</p>'
-            newCard += '<p>' + info.thingsToDo[0].adress + '</p>'
-             newCard += '<p>' + info.thingsToDo[0].Text + '</p>'
-            newCard += '<a href="' + info.thingsToDo[0].link + '"</a>'
-            newCard += '</div>'
-            newCard += '</div>'
+    const responseObject = JSON.parse(xhr.responseText)
+    //create an empry string to hold thhe  card imnformation
+    let newCard = ''
+    for (let index = 0; index < responseObject.images.length; index++) {
+      //loop through all objects inside the responseobject
+      //obtain all information, add it to newcard 'card' and add it to the page
+      newCard += '<div class=card>'
+      newCard += '<h2>' + info.thingsToDo[0].title + '</h2>'
+      newCard += '<img src="' + responseObject.images[index].Fun + '"/>'
+      newCard += '<button class="BTTN">'
+      newCard += '<img src="' + responseObject.icons[index].Plus + '"class="icon"/>'
+      newCard += '</button>'
+      newCard += '<div class="secondary_card">'
+      newCard += '<p>' + info.thingsToDo[0].name + '</p>'
+      newCard += '<p>' + info.thingsToDo[0].adress + '</p>'
+      newCard += '<p>' + info.thingsToDo[0].Text + '</p>'
+      newCard += '<a href="https://www.tripadvisor.com/Attractions-g50226-Activities-Columbus_Ohio.html">' + info.thingsToDo[0].link + '</a>'
+      newCard += '</div>'
+      newCard += '</div>'
 
-            newCard += '<div class=card>'
-            newCard += '<h2>' + info.Hotels[0].title + '</h2>'
-            newCard += '<img src="' + responseObject.images[index].Lodging + '"/>'
-            newCard += '<button class="BTTN">'
-            newCard += '<img src="' + responseObject.icons[index].Plus + '"class="icon"/>'
-            newCard += '</button>'
-            newCard += '<div class="secondary_card">'
-            newCard += '<p>' + info.Hotels[0].name + '</p>'
-            newCard += '<p>' + info.Hotels[0].stars + '</p>'
-            newCard += '<p>' + info.Hotels[0].adress + '</p>'
-              newCard += '<p>' + info.Hotels[0].Text + '</p>'
-            newCard += '<a href="https://www.tripadvisor.com/Hotels-g50226-Columbus_Ohio-Hotels.html">' + info.Hotels[0].link + '</a>'
-            newCard += '</div>'
-            newCard += '</div>'
+      newCard += '<div class=card>'
+      newCard += '<h2>' + info.Hotels[0].title + '</h2>'
+      newCard += '<img src="' + responseObject.images[index].Lodging + '"/>'
+      newCard += '<button class="BTTN">'
+      newCard += '<img src="' + responseObject.icons[index].Plus + '"class="icon"/>'
+      newCard += '</button>'
+      newCard += '<div class="secondary_card">'
+      newCard += '<p>' + info.Hotels[0].name + '</p>'
+      newCard += '<p>' + info.Hotels[0].stars + '</p>'
+      newCard += '<p>' + info.Hotels[0].adress + '</p>'
+      newCard += '<p>' + info.Hotels[0].Text + '</p>'
+      newCard += '<a href="https://www.tripadvisor.com/Hotels-g50226-Columbus_Ohio-Hotels.html">' + info.Hotels[0].link + '</a>'
+      newCard += '</div>'
+      newCard += '</div>'
 
-            newCard += '<div class=card>'
-            newCard += '<h2>' + info.PlacesToEat[0].title + '</h2>'
-            newCard += '<img src="' + responseObject.images[index].Food + '"/>'
-            newCard += '<button class="BTTN">'
-            newCard += '<img src="' + responseObject.icons[index].Plus + '" class="icon"/>'
-            newCard += '</button>'
-            newCard += '<div class="secondary_card">'
-            newCard += '<p>' + info.PlacesToEat[0].name + '</p>'
-            newCard += '<p>' + info.PlacesToEat[0].adress + '</p>'
-              newCard += '<p>' + info.PlacesToEat[0].Text + '</p>'
-            newCard += '<a href="https://www.tripadvisor.com/Restaurants-g50226-Columbus_Ohio.html">' + info.PlacesToEat[0].link + '</a>'
-            newCard += '</div>'
-            newCard += '</div>'
+      newCard += '<div class=card>'
+      newCard += '<h2>' + info.PlacesToEat[0].title + '</h2>'
+      newCard += '<img src="' + responseObject.images[index].Food + '"/>'
+      newCard += '<button class="BTTN">'
+      newCard += '<img src="' + responseObject.icons[index].Plus + '" class="icon"/>'
+      newCard += '</button>'
+      newCard += '<div class="secondary_card">'
+      newCard += '<p>' + info.PlacesToEat[0].name + '</p>'
+      newCard += '<p>' + info.PlacesToEat[0].adress + '</p>'
+      newCard += '<p>' + info.PlacesToEat[0].Text + '</p>'
+      newCard += '<a href="https://www.tripadvisor.com/Restaurants-g50226-Columbus_Ohio.html">' + info.PlacesToEat[0].link + '</a>'
+      newCard += '</div>'
+      newCard += '</div>'
 
-            newCard += '<div class=card>'
-            newCard += '<h2>' + info.Shopping[0].title + '</h2>'
-            newCard += '<img src="' + responseObject.images[index].mall + '"/>'
-            newCard += '<button class="BTTN">'
-            newCard += '<img src="' + responseObject.icons[index].Plus + '" class="icon"/>'
-            newCard += '</button>'
-            newCard += '<div class="secondary_card">'
-            newCard += '<p>' + info.Shopping[0].name + '</p>'
-            newCard += '<p>' + info.Shopping[0].adress + '</p>'
-              newCard += '<p>' + info.Shopping[0].Text + '</p>'
-            newCard += '<a href="https://www.experiencecolumbus.com/blog/post/boutique-shopping-districts-in-columbus/">' + info.Shopping[0].link + '</a>'
-            newCard += '</div>'
-            newCard += '</div>'
+      newCard += '<div class=card>'
+      newCard += '<h2>' + info.Shopping[0].title + '</h2>'
+      newCard += '<img src="' + responseObject.images[index].mall + '"/>'
+      newCard += '<button class="BTTN">'
+      newCard += '<img src="' + responseObject.icons[index].Plus + '" class="icon"/>'
+      newCard += '</button>'
+      newCard += '<div class="secondary_card">'
+      newCard += '<p>' + info.Shopping[0].name + '</p>'
+      newCard += '<p>' + info.Shopping[0].adress + '</p>'
+      newCard += '<p>' + info.Shopping[0].Text + '</p>'
+      newCard += '<a href="https://www.experiencecolumbus.com/blog/post/boutique-shopping-districts-in-columbus/">' + info.Shopping[0].link + '</a>'
+      newCard += '</div>'
+      newCard += '</div>'
 
-        }
-        //add information to the webpage
-        document.querySelector('#content').innerHTML = newCard
+      newCard += '<div class=card>'
+      newCard += '<h2>' + info.Hotels[0].title + '</h2>'
+      newCard += '<img src="' + responseObject.images[index].Lodging + '"/>'
+      newCard += '<button class="BTTN">'
+      newCard += '<img src="' + responseObject.icons[index].Plus + '"class="icon"/>'
+      newCard += '</button>'
+      newCard += '<div class="secondary_card">'
+      newCard += '<p>' + info.Hotels[0].name + '</p>'
+      newCard += '<p>' + info.Hotels[0].stars + '</p>'
+      newCard += '<p>' + info.Hotels[0].adress + '</p>'
+      newCard += '<p>' + info.Hotels[0].Text + '</p>'
+      newCard += '<a href="https://www.tripadvisor.com/Hotels-g50226-Columbus_Ohio-Hotels.html">' + info.Hotels[0].link + '</a>'
+      newCard += '</div>'
+      newCard += '</div>'
+
+      newCard += '<div class=card>'
+      newCard += '<h2>' + info.Hotels[0].title + '</h2>'
+      newCard += '<img src="' + responseObject.images[index].Lodging + '"/>'
+      newCard += '<button class="BTTN">'
+      newCard += '<img src="' + responseObject.icons[index].Plus + '"class="icon"/>'
+      newCard += '</button>'
+      newCard += '<div class="secondary_card">'
+      newCard += '<p>' + info.Hotels[0].name + '</p>'
+      newCard += '<p>' + info.Hotels[0].stars + '</p>'
+      newCard += '<p>' + info.Hotels[0].adress + '</p>'
+      newCard += '<p>' + info.Hotels[0].Text + '</p>'
+      newCard += '<a href="https://www.tripadvisor.com/Hotels-g50226-Columbus_Ohio-Hotels.html">' + info.Hotels[0].link + '</a>'
+      newCard += '</div>'
+      newCard += '</div>'
+
     }
+    //add information to the webpage
+    document.querySelector('#content').innerHTML = newCard
+  }
 }
 
 xhr2.onload = function () {
-    if (xhr2.status === 200) {
-        info = JSON.parse(xhr2.responseText)
-    }
+  if (xhr2.status === 200) {
+    info = JSON.parse(xhr2.responseText)
+  }
 }
 
 //prepare our request
