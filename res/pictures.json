@@ -5,7 +5,8 @@
             "Lodging": "./res/images/hotel.jpg",
             "Food": "./res/images/food.png",
             "mall": "./res/images/eastonMall.jpg",
-            "rock":"./res/images/download.png"
+            "rock":"./res/images/download.png",
+            "event":"./res/images/Event.png"
         }
     ],
     "icons": [

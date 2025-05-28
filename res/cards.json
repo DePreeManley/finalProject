@@ -4,7 +4,7 @@
             "title": "Things To Do",
             "name": "Cosi",
             "adress": "333 W Broad St",
-            "Text":"More Examples:",
+            "Text": "More Examples:",
             "link": "https://www.tripadvisor.com/Attractions-g50226-Activities-Columbus_Ohio.html"
         }
     ],
@@ -15,8 +15,8 @@
             "price": "Price: High",
             "adress": "624 N High St",
             "stars": "4.5 Stars",
-            "Text":"More Examples:",
-            "link":"https://www.tripadvisor.com/Restaurants-g50226-Columbus_Ohio.html"
+            "Text": "More Examples:",
+            "link": "https://www.tripadvisor.com/Restaurants-g50226-Columbus_Ohio.html"
         }
     ],
     "Hotels": [
@@ -25,8 +25,8 @@
             "name": "Hampton Inn",
             "stars": " 3.9 Stars",
             "adress": "3160 Olentangy River Road",
-            "Text":"More Examples:",
-            "link":"https://www.tripadvisor.com/Hotels-g50226-Columbus_Ohio-Hotels.html"
+            "Text": "More Examples:",
+            "link": "https://www.tripadvisor.com/Hotels-g50226-Columbus_Ohio-Hotels.html"
         }
     ],
     "Shopping": [
@@ -35,19 +35,27 @@
             "name": "Celebrate Local - Shop the Best of Ohio",
             "adress": "3952 Townsfair Way",
             "rating": "4.5 Stars",
-            "Text":"More Examples:",
-             "link":"https://www.experiencecolumbus.com/blog/post/boutique-shopping-districts-in-columbus/"
-           
+            "Text": "More Examples:",
+            "link": "https://www.experiencecolumbus.com/blog/post/boutique-shopping-districts-in-columbus/"
         }
     ],
-    "PlacesToSee":[
+    "PlacesToSee": [
         {
-            "title":"Places To See",
-            "name":"Franklin Park Conservatory and Botanical Gardens",
-            "adress":"1777 E Broad St",
-            "Text":"More Examples:",
-            "link":"https://www.experiencecolumbus.com/things-to-do/"
-
+            "title": "Places To See",
+            "name": "Franklin Park Conservatory and Botanical Gardens",
+            "adress": "1777 E Broad St",
+            "Text": "More Examples:",
+            "link": "https://www.experiencecolumbus.com/things-to-do/"
+        }
+    ],
+    "Events": [
+        {
+            "title": "Events",
+            "name": "Columbus Taco Fest",
+            "adress": "233 S Civic Center Dr",
+            "date":"June 6, 2025 - June 8, 2025",
+            "Text": "More Examples:",
+            "link": "https://www.experiencecolumbus.com/events/"
         }
     ]
 }
